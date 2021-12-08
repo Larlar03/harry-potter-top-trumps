@@ -30,7 +30,7 @@ def run():
 
     print('The opponent chose {} from {}'.format(opponents_student['name'], opponents_student['house']))
 
-    stat_choice = input('Which stat do you want to test against your opponent? (ancestry or wand_length?) ')
+    stat_choice = input('Which stat do you want to test against your opponent? (ancestry or wand?) ')
 
     players_stat = players_student[stat_choice]
 
